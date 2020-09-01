@@ -1,0 +1,40 @@
+/*      >    Medium      -       (Pour tous les écrans supérieurs à Medium / tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 2px 120px 2px !important;
+    }
+
+    .navbar-brand-image{
+        padding: 8px 16px !important;
+    }
+}
+
+/* NavBar */
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+    padding: 0px 20px;
+
+}
+
+.nav-link:hover {
+    background-color: #f7f7f7;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+#responsive-navbar-nav {
+    text-align: right;
+}
+
+.navbar-brand{
+    padding: 0px !important;
+}
+
+.navbar-brand-image-link {
+    height: 40px !important;
+}
+
+.navbar-brand-image{
+    padding: 0px 16px;
+}
