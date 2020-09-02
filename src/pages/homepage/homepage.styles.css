@@ -27,6 +27,24 @@ M E D I A  Q U E R I E S
     .homepage-logo-central {
         width: 30% !important;
     }
+
+    .qu-est-ce-qu-on-mange {
+        padding: 40px 10% !important;
+    }
+    
+    .qu-est-ce-qu-on-mange-container {
+        padding: 10px 8% !important;
+    }
+
+    .ou-nous-trouver {
+        padding: 40px 10% !important;
+    }
+
+    .ou-nous-trouver-container {
+        padding: 10px 8% !important;
+    }
+
+    
 }
 
 /*      >    Large      -       (Pour tous les écrans supérieurs à Large / desktops, 992px and up) */
@@ -94,7 +112,7 @@ M E D I A  Q U E R I E S
 
 /*       qu-est-ce-qu-on-mange      */
 .qu-est-ce-qu-on-mange {
-    padding: 40px 10%;
+    padding: 40px 0px;
     text-align: center;
     /* background-color: red; */
 }
@@ -102,7 +120,7 @@ M E D I A  Q U E R I E S
 .qu-est-ce-qu-on-mange-container {
     display: flex;
     flex-direction: column;
-    padding: 10px 8%;
+    padding: 10px 0px;
 }
 
 .button-container {
@@ -127,7 +145,7 @@ M E D I A  Q U E R I E S
 
 /*       ou-nous-trouver      */
 .ou-nous-trouver {
-    padding: 40px 10%;
+    padding: 40px 0px;
     text-align: center;
     /* background-color: #f1b932; */
     background-color: #ed7800;
@@ -138,14 +156,14 @@ M E D I A  Q U E R I E S
 .ou-nous-trouver-container {
     display: flex;
     flex-direction: column;
-    padding: 10px 8%;
+    padding: 10px 0px;
 }
 
 .img-map {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
 }
 
 .section-title {

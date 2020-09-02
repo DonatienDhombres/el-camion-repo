@@ -37,7 +37,7 @@ const HomePage = () => (
 
 
         <section className='qu-est-ce-qu-on-mange'>
-            <h2>Qu'est-ce qu'on mange ?</h2>
+            <h3>Qu'est-ce qu'on mange ?</h3>
             <div className='qu-est-ce-qu-on-mange-container'>
                 <Carousel>
                     {/* 1 */}
@@ -49,7 +49,7 @@ const HomePage = () => (
                             data-interval="5000"
                         />
                         <Carousel.Caption>
-                            <h2>Burritos</h2>
+                            <h4>Burritos</h4>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -61,7 +61,7 @@ const HomePage = () => (
                             alt="Nacho Machos"
                         />
                         <Carousel.Caption>
-                            <h2>Nacho Machos</h2>
+                            <h4>Nacho Machos</h4>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -73,7 +73,7 @@ const HomePage = () => (
                             alt="Quesadillas"
                         />
                         <Carousel.Caption>
-                            <h2>Quesadillas</h2>
+                            <h4>Quesadillas</h4>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -85,7 +85,7 @@ const HomePage = () => (
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h2>Tacos</h2>
+                            <h4>Tacos</h4>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -103,7 +103,7 @@ const HomePage = () => (
 
 
         <section className='ou-nous-trouver'>
-            <h2 className='section-title'>Où nous trouver ?</h2>
+            <h3 className='section-title'>Où nous trouver ?</h3>
             <div className='ou-nous-trouver-container'>
                 <img src="./images/map.png" alt="" className="img-map" />
                 <span className="button-container">
