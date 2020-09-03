@@ -37,7 +37,7 @@ const HomePage = () => (
 
 
         <section className='qu-est-ce-qu-on-mange'>
-            <h3>Qu'est-ce qu'on mange ?</h3>
+            <h4 className="subtitles-1">Qu'est-ce qu'on mange ?</h4>
             <div className='qu-est-ce-qu-on-mange-container'>
                 <Carousel>
                     {/* 1 */}
@@ -103,9 +103,9 @@ const HomePage = () => (
 
 
         <section className='ou-nous-trouver'>
-            <h3 className='section-title'>Où nous trouver ?</h3>
+            <h4 className="subtitles-1 ou-nous-trouver-title">Où nous trouver ?</h4>
             <div className='ou-nous-trouver-container'>
-                <img src="./images/map.png" alt="" className="img-map" />
+                <img src="./images/map.png" alt="" className="img-map-1" />
                 <span className="button-container">
                     <Link to="/find-us">
                         <Button variant="outline-warning" size="lg" className="button-1">

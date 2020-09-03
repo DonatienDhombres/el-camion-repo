@@ -13,7 +13,7 @@ const Header = () => (
         <Navbar.Brand className="navbar-brand">
             <Link to="/" className="navbar-brand-image-link">
                 <img
-                    className="navbar-brand-image d-inline-block align-top nav-link"
+                    className="navbar-brand-image d-inline-block align-top"
                     alt=""
                     src="/logo-el-camion.png"
                     // width="100%"

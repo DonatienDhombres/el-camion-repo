@@ -7,15 +7,30 @@ import {
 } from "react-router-dom";
 
 import HomePage from './pages/homepage/homepage.component';
+import FindUs from './pages/find-us/find-us.component';
 
 import Header from "./components/header/header.component";
+
+import ScrollToTop from "./components/scroll-to-top/scroll-to-top.component";
+
+
+
+
+
+
+
+
+
+
+
 
 export default function App() {
   return (
     <Router>
       <Header />
+      <ScrollToTop />
       <Switch>
-        <Route path="/menu">
+        <Route path="/menu" >
           <Menu />
         </Route>
         <Route path="/about-us">
@@ -34,10 +49,6 @@ export default function App() {
 
 function About() {
   return <h2>A propos de nous</h2>;
-}
-
-function FindUs() {
-  return <h2>Nous trouver</h2>;
 }
 
 function Menu() {

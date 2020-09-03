@@ -1,0 +1,59 @@
+
+/*           Spécifique : Petit            */
+/*      <   Medium      -       (Pour tous les écrans inférieurs à Medium / tablets, 768px and down) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+    .google-maps-div {
+        position: relative;
+        padding-bottom: 80%;
+        height: 0;
+        overflow: hidden;
+        width: 90vw;
+    }
+    
+    .google-maps iframe {
+        position: absolute;
+        left:0 !important;
+        right:0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        margin-left: auto ;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .img-map-2 {
+        width: 100% !important;
+    }
+}
+
+
+/*               Tous         */
+.findus {
+    text-align: center;
+}
+
+.title-2 {
+    color: #f9b233 !important;
+    font-family: "Pacifico", helvetica, arial;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.subtitles-1{
+    color: rgb(0, 128, 0) ;
+    font-family: "Pacifico", helvetica, arial;
+
+}
+
+.img-map-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.col-findus{
+    margin-bottom: 40px;
+}
+
