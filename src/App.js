@@ -8,20 +8,12 @@ import {
 
 import HomePage from './pages/homepage/homepage.component';
 import FindUs from './pages/find-us/find-us.component';
+import Menu from './pages/menu/menu.component'
+import AboutUs from './pages/about-us/about-us.component'
 
 import Header from "./components/header/header.component";
 
 import ScrollToTop from "./components/scroll-to-top/scroll-to-top.component";
-
-
-
-
-
-
-
-
-
-
 
 
 export default function App() {
@@ -34,7 +26,7 @@ export default function App() {
           <Menu />
         </Route>
         <Route path="/about-us">
-          <About />
+          <AboutUs />
         </Route>
         <Route path="/find-us">
           <FindUs />
@@ -47,10 +39,3 @@ export default function App() {
   );
 }
 
-function About() {
-  return <h2>A propos de nous</h2>;
-}
-
-function Menu() {
-  return <h2>Menu</h2>;
-}

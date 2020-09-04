@@ -7,6 +7,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Footer from '../../components/footer/footer.component'
+
+
 
 const FindUs = () => (
     <div className="findus">
@@ -25,7 +28,7 @@ const FindUs = () => (
             {/* 2 */}
             <Row>
                 <Col className="col-findus">
-                    <h4 className="subtitles-1">Lundi - 11h45-14h - Hôpital Huriez</h4>
+                    <h4 className="subtitles-1">Lundi - 11h45-14h <br/> Hôpital Huriez, Lille</h4>
                     <div className="google-maps-div">
                         <iframe
                             title="map-lundi"
@@ -35,7 +38,7 @@ const FindUs = () => (
                     </div>
                 </Col>
                 <Col className="col-findus">
-                    <h4 className="subtitles-1">Mardi - 11h45-14h - Plaine Images, Tourcoing</h4>
+                    <h4 className="subtitles-1">Mardi - 11h45-14h <br/>Plaine Images, Tourcoing</h4>
                     <div className="google-maps-div">
                         <iframe
                             title="map-mardi"
@@ -53,7 +56,7 @@ const FindUs = () => (
             {/* 3 */}
             <Row>
                 <Col className="col-findus">
-                    <h4 className="subtitles-1">Mercredi - 11h45-14h - O'Tera, St André</h4>
+                    <h4 className="subtitles-1">Mercredi - 11h45-14h <br/>O'Tera, St André</h4>
                     <div className="google-maps-div">
                         <iframe
                             title="map-mercredi"
@@ -62,7 +65,7 @@ const FindUs = () => (
                     </div>
                 </Col>
                 <Col className="col-findus">
-                    <h4 className="subtitles-1">Jeudi - 11h45-14h - Centre Européen de formation, V.D'ascq</h4>
+                    <h4 className="subtitles-1">Jeudi - 11h45-14h <br/>Centre Européen de formation, V.D'ascq</h4>
                     <div className="google-maps-div">
                         <iframe
                             title="map-jeudi"
@@ -73,11 +76,10 @@ const FindUs = () => (
             </Row>
 
 
-
             {/* 4 */}
             <Row>
                 <Col className="col-findus">
-                    <h4 className="subtitles-1">Vendredi - 11h45-14h - Euratechnologies</h4>
+                    <h4 className="subtitles-1">Vendredi - 11h45-14h <br/>Euratechnologies, Lille</h4>
                     <div className="google-maps-div">
                         <iframe
                             title="map-vendredi"
@@ -86,7 +88,7 @@ const FindUs = () => (
                     </div>
                 </Col>
                 <Col className="col-findus">
-                    <h4 className="subtitles-1">Samedi - 11h45-14h - O'Tera, Sart</h4>
+                    <h4 className="subtitles-1">Samedi - 11h45-14h <br/>O'Tera, Sart</h4>
                     <div className="google-maps-div">
                         <iframe
                             title="map-samedi"
@@ -96,10 +98,12 @@ const FindUs = () => (
                 </Col>
             </Row>
 
+
+
             {/* 5 */}
             <Row>
                 <Col className="col-findus">
-                    <h4 className="subtitles-1">Dimanche - 19h-22h - Stars Music, Lille</h4>
+                    <h4 className="subtitles-1">Dimanche - 19h-22h <br/>Stars Music, Lille</h4>
                     <div className="google-maps-div">
                         <iframe
                             title="map-dimanche"
@@ -110,8 +114,8 @@ const FindUs = () => (
                 <Col className="col-findus">
                 </Col>
             </Row>
-
         </Container>
+        <Footer />
     </div>
 )
 

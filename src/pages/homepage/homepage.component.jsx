@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel'
 import Button from 'react-bootstrap/Button'
 
+import Footer from '../../components/footer/footer.component'
+
+
 const HomePage = () => (
     <div>
         <div className="homepage-title">
@@ -115,6 +118,7 @@ const HomePage = () => (
                 </span>
             </div>
         </section>
+        <Footer />
 
     </div>
 )
