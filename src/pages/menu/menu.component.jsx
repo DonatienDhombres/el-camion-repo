@@ -46,7 +46,7 @@ const Menu = () => (
 
                     <MenuCard
                         title="Quesadilla Deluxe"
-                        text="Tortilla de 30cm, coupé en 4. Tortilla de blé de 30cm accompagnées de cheddar, et mozzarella, poulet halal ou chorizo maison, pico de gallo, épices à votre guise"
+                        text="Tortilla de blé de 30cm, coupé en 4, accompagnées de cheddar, et mozzarella, poulet halal ou chorizo maison, pico de gallo, épices à votre guise"
                         imgsrc="./images/carousel/quesadillas.jpg"
                     />
 
@@ -97,6 +97,11 @@ const Menu = () => (
                         title="Modelo"
                         text="Bière mexicaine"
                         imgsrc="./images/modelo.jpg"
+                    />
+                    <MenuCard
+                        title="Jumex"
+                        text="Jus de fruit mexicain"
+                        imgsrc="./images/jumex.png"
                     />
                 </Row>
             </section>

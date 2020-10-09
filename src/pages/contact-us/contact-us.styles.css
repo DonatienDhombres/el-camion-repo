@@ -1,21 +1,19 @@
 /*           Spécifique : Petit            */
 /*      <   Medium      -       (Pour tous les écrans inférieurs à Medium / tablets, 768px and down) The navbar toggle appears at this breakpoint */
 @media (max-width: 768px) {
-    .about-us{
-        padding: 30px !important;
+    .text-contact-us a {
+        color: black;
+    }
+
+    .text-contact-us{
+        margin: auto 5vw !important;
     }
 }
 
-.space{
-    padding-top:30px;
-    padding-bottom: 15px;
+.text-contact-us{
+    margin: auto 20vw;
 }
 
-.center-img{
-    text-align: center;
-    padding-top: 20px;
-}
-
-.about-us{
-    padding: 0px 60px;
+.text-contact-us a {
+    color: black;
 }

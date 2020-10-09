@@ -49,12 +49,12 @@ const Footer = () => (
                         <div className="tel">
                             <i className="fas fa-mobile-alt"></i> <a href="tel:+33682686183">06 . 82 . 68 . 61 . 83</a>
                         </div>
-                        <div className="mail"><i class="far fa-envelope"></i> <a href="mailto:el.camion@icloud.com">el.camion@icloud.com</a></div>
+                        <div className="mail"><i class="far fa-envelope"></i> <a href="mailto:event.elcamion@gmail.com">event.elcamion@gmail.com</a></div>
                     </div>
                 </Col>
             </Row>
             <div className="copyright">
-                <p> ©2020 El Camion. Réalisé par <a href="mailto:donatien.lesravitailleurs@gmail.com">Donatien</a></p>
+                <p> ©2020 El Camion. Réalisé par <a href="mailto:donatien.dbr@gmail.com">Donatien</a></p>
             </div>
         </Container>
     </footer>

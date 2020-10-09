@@ -29,6 +29,7 @@ const Header = () => (
                 <Link to="/menu" className="nav-link">MENU</Link>
                 <Link to="/find-us" className="nav-link">EMPLACEMENTS</Link>
                 <Link to="/about-us" className="nav-link">A PROPOS</Link>
+                <Link to="/contact-us" className="nav-link">CONTACT</Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
