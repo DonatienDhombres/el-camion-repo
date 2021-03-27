@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './homepage.styles.css';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel'
 import Button from 'react-bootstrap/Button'
 
@@ -108,9 +108,9 @@ const HomePage = () => (
         <section className='ou-nous-trouver'>
             <h4 className="subtitles-1 ou-nous-trouver-title">Où nous trouver ?</h4>
             <div className='ou-nous-trouver-container'>
-                <img src="./images/map.png" alt="" className="img-map-1" />
+                <iframe title="map" src="https://www.google.com/maps/d/embed?mid=1Aro_dXWapD43tS4b_jeRrh8wRaptwRhq" width="640" height="480" className="img-map-1"></iframe>
                 <span className="button-container">
-                    <Link to="/find-us">
+                    <Link to={{ pathname: "https://www.google.com/maps/d/u/9/viewer?hl=fr&mid=1Aro_dXWapD43tS4b_jeRrh8wRaptwRhq&ll=50.61903490417048%2C3.4015547848337713&z=9" }} target="_blank">
                         <Button variant="outline-warning" size="lg" className="button-1">
                             En savoir plus sur nos emplacements
                         </Button>
